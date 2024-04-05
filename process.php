@@ -1,4 +1,10 @@
 <?php
+// process.php
+// Authors: Hao Fan
+// Date: 04/04/2024
+// URL: https://hfan.greenriverdev.com/328/cupcakes/
+// Description: This script processes the cupcake order form,
+// version: 1.0
      $name = isset($_POST["name"])? $_POST["name"]: "Guest";
 
     $flavor = isset($_POST["flavor"])? $_POST["flavor"]: [];
